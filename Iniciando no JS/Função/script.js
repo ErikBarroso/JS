@@ -1,30 +1,17 @@
-/*function areaQuadrado(lado) {
-  return lado*lado;
+let pessoa = {
+  nome: 'Erik',
+  idade: 26,
+
 }
-console.log(areaQuadrado(2));*/
 
-
-/*function pi() {
-  return 3.14;
-}
-let total = 5* pi();
-console.log(pi());*/
-
-/*function imc (peso, altura){
-  const imc = peso / (altura **2);
-  return imc;
-}
-console.log(imc(80, 1.8));*/
-
-/*function corFavorita(cor) {
-  if(cor === 'azul') {
-    return 'Eu gosto de praia';
-  } else if (cor === 'verde'){
-    return 'Eu gosto de trilha';
-  } else {
-    return 'Eu não gosto de nada.k kk'
+let quadrado = {
+  lados: 4,
+  area(lado){ // método
+    return lado * lado;
+  }, 
+  perimetro(lado) {
+    return this.lados*lado;
   }
-}*/
-
-addEventListener('click', function(){console.log('oi');
-});
+}
+console.log(quadrado.area(3));
+console.log(quadrado.perimetro(10)); 
