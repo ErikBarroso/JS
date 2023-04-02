@@ -123,7 +123,7 @@ addEventListener('scroll', function() {
 });
 
 //Corrija o erro abaixo
-var totalPaises = 193;
+/*var totalPaises = 193;
 function precisoVisitar(paisesVisitados) {
 
   return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
@@ -139,35 +139,35 @@ var menu = {
   height: 50,
   backgroundColor: '#84E',
 }
-var bg = menu.backgroundColor;
+var bg = menu.backgroundColor;*/
 
 // Crie um objeto com os seus dados pessoais
 // Deve possui pelo menos duas propriedades nome e sobrenome
-let dadosPessoais = {
+/*let dadosPessoais = {
   nome: 'Erik',
   sobrenome: 'Barroso',
   nomeCompleto: function(){
     return this.nome  + ' ' + this.sobrenome;
   },
-}
+}*/
 
 
 // Crie um método no objeto anterior, que mostre o seu nome completo
 
 // Modifique o valor da propriedade preco para 3000
-var carro = {
+/*var carro = {
   preco: 1000,
   portas: 4,
   marca: 'Audi',
 }
 
 carro.preco = 3000;
-;
+;*/
 
 // Crie um objeto de um cachorro que represente um labrador,
 // preto com 10 anos, que late ao ver um homem
 
-let cachorro = {
+/*let cachorro = {
   raca: 'labrador',
   cor: 'preto',
   idade: 10,
@@ -178,7 +178,25 @@ let cachorro = {
       return 'Cachorro não está latindo'
     }
   }
-} 
+} */
 
 
 
+// nomeie 3 propriedades ou métodos de strings
+/*let nome23 = 'Erik';
+nome23.
+includes
+concat
+indexOf*/
+// nomeie 5 propriedades ou métodos de elementos do DOM
+var btn = document.querySelector('.btn');
+//addEventListener
+//after
+//appendChild
+//getAttribute
+//dispatchEvent
+
+// busque na web um objeto (método) capaz de interagir com o clipboard, 
+
+
+// clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
