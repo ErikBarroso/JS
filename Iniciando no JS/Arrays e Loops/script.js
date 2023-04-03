@@ -9,7 +9,7 @@ let videoGames =['PS4', 'PS2', 'PS1', 'Xbox '];
   }
 }*/
 
-/*let i = 0;
+let i = 0;
 while(i < videoGames.length){
   console.log(videoGames[i]);
   if(videoGames[i] === 'PS2'){
@@ -18,7 +18,7 @@ while(i < videoGames.length){
     
   }
   i++;
-}*/
+}
 
 /*let frutas = ['Uva', 'Banana', 'Abacaxi'];
 
@@ -31,7 +31,7 @@ frutas.forEach(function (nomeFruta,i) {
 let anosBrasilCopa = [1959, 1962, 1970, 1994, 2022];
 // Interaja com a array utilizando um loop, para mostrar
 // no console a seguinte mensagem, `O brasil ganhou a copa de ${ano}`
-for (let i = 0; i < anosBrasilCopa.length; i++){
+/*for (let i = 0; i < anosBrasilCopa.length; i++){
   console.log(`O Brasil ganhou a copa de ${anosBrasilCopa[i]}`);
 }
 
@@ -52,3 +52,4 @@ for (let i = 0; i < frutas.length; i++){
 
 let ultimaFruta = frutas[frutas.length-1];
 console.log(ultimaFruta);
+*/
