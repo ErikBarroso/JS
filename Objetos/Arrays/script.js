@@ -108,3 +108,4 @@ const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
 // salve a array original em outra variável
 const cloneCarros = carros.slice();
 carros.pop();
+
