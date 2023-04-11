@@ -144,10 +144,18 @@ const compras = [
   },
   {
     item: 'Quejo',
-    preco: 'R$ 10,60'
+    preco:  'R$ 10,60',
+  },
+  {
+    
+    preco: 'R$ 50,00'
   }
 ]
 // Retorne o valor total das compras
-const valor = compras.map(item => item.preco);
+const valorTototal = compras.reduce((acumulador,item) => {
+  const precoLimpo = +item.preco.replace('R$ ', '',).replace(',', '.');
+  return acumulador + precoLimpo;   
+},0)
 
-console.log(valor);
+console.log(valorTototal);
+
