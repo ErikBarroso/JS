@@ -1,4 +1,4 @@
-/*const carro = {
+const carro = {
   rodas: 4,
   init(marcoCarro) {
     this.marca = marcoCarro;
@@ -32,7 +32,7 @@ moto.velocidade = 200;
 moto.velocidade;
 // Velocidade 200
 
-*/
+
 
 // Crie uma função que verifique
 // corretamente o tipo de dado
