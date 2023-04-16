@@ -7,7 +7,22 @@
   <title>fetch</title>
 </head>
 <body>
-  <div class="conteudo" ></div>
+  <style>
+    label {
+      display: block;
+    }
+    input{
+      display: block;
+    }
+  </style>
+  <form id="buscaCeP">
+    <label for="cep">CEP</label>
+    <input type="text" name="cep" id="cep">
+    <input type= "button" value="Buscar CEP" id="btncep" >
+  </form>
+  <div class="resultadoCep" >
+
+  </div>
   <script src="script.js"></script> 
 </body>
 </html>
